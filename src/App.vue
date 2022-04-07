@@ -1,15 +1,23 @@
 <template>
   <div id="app">
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </nav>
-    <router-view />
+    <PostingPage />
   </div>
 </template>
 
+<script>
+import PostingPage from '@/views/PostingPage.vue';
+
+export default {
+  name: 'App',
+  components: {
+    PostingPage,
+  },
+};
+</script>
+
 <style>
 #app {
+  width: 450px;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
