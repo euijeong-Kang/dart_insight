@@ -10,9 +10,9 @@
         "default_popup": "index.html"
     },
     "icons": {
-      "16": "icons/16.png",
-      "48": "icons/48.png",
-      "128": "icons/128.png"
+      "16": "icons/dartboard.png",
+      "48": "icons/dartboard.png",
+      "128": "icons/dartboard.png"
     },
     "permissions": [
         "tabs",
