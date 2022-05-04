@@ -46,7 +46,7 @@ export default {
     getInfo() {
       chrome.tabs.query({ active: true, lastFocusedWindow: true }, tabs => {
         this.url = tabs[0].url;
-        this.title = tabs[0].title;
+        this.title = tabs[0].title.split('-|:|\\|')[0];
       });
     },
   },
